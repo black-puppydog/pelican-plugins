@@ -54,7 +54,7 @@ def process_settings(pelicanobj):
     mathjax_settings['tex_extensions'] = ''  # latex extensions that can be embedded inside mathjax (see http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions)
 
     # Source for MathJax: Works boths for http and https (see http://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn)
-    mathjax_settings['source'] = "'//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'"
+    mathjax_settings['source'] = "'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'"
 
     # Get the user specified settings
     try:
